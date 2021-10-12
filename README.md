@@ -12,4 +12,7 @@ Layout created in Figma:
 </div>
 
 -- Project to ECCJR - UNESP
+
+<br>
+
 Access in https://paolaguedes.github.io/landing-candy-shop/
