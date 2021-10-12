@@ -118,8 +118,8 @@
 
     .drawer {
         position: absolute;
-        width: 30vh;
-        height: 35vh;
+        width: 35vh;
+        height: 37vh;
         right: 0;
         background-color: var(--btn);
         padding: 50px 30px 50px 30px;
@@ -144,8 +144,8 @@
           opacity: 0;  
          }
         100% {
-          -webkit-height: 40vh;  
-          height: 40vh; 
+          -webkit-height: 37vh;  
+          height: 37vh; 
           opacity: 1; 
         }
     }
