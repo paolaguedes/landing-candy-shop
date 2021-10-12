@@ -119,7 +119,7 @@
     .drawer {
         position: absolute;
         width: 30vh;
-        height: 30vh;
+        height: 35vh;
         right: 0;
         background-color: var(--btn);
         padding: 50px 30px 50px 30px;
@@ -144,8 +144,8 @@
           opacity: 0;  
          }
         100% {
-          -webkit-height: 30vh;  
-          height: 30vh; 
+          -webkit-height: 35vh;  
+          height: 35vh; 
           opacity: 1; 
         }
     }
@@ -189,10 +189,10 @@
     }
     
     header nav ul li {
-        list-style-type: none;
         font-size: 1em;
         -webkit-animation: descendo2 0.4s linear;
         animation: descendo2 .4s linear;  
+        margin-bottom: 10px;
     }
 
     @keyframes descendo2 {
@@ -206,7 +206,12 @@
     
     header nav ul li a {
         color: white;
-        padding-left: 3px;
+        padding: .8em .6em;
+        line-height: 1.3;
+    }
+
+    header nav ul li a:hover {
+        color: white;
     }
 
     main .hero .hero-pic {
