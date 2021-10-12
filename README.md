@@ -1,2 +1,2 @@
-# landing-candy-shop
+# Candy Shop
 A landing page of a candy shop.
