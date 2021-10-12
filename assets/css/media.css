@@ -144,8 +144,8 @@
           opacity: 0;  
          }
         100% {
-          -webkit-height: 35vh;  
-          height: 35vh; 
+          -webkit-height: 40vh;  
+          height: 40vh; 
           opacity: 1; 
         }
     }
