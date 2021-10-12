@@ -68,6 +68,7 @@ main .hero .hero-title p strong {
 main .hero .hero-title a {
     background-color: #25A710;
     font-size: 1.5em;
+    padding: 1em 1.8em;
 }
 
 main .hero .hero-title a:hover {

@@ -162,10 +162,10 @@
     #check:checked ~ label .x {
         display: inline-block;
         color: var(--btn);
-        font-size: 40px;
+        font-size: 55px;
         position: absolute;
         right: 28px;
-        top: 25px;
+        top: 20px;
     }
 
     header nav label {
@@ -177,7 +177,7 @@
     /* menu end */
     
     header nav label i {
-        font-size: 30px;
+        font-size: 40px;
     }
 
     header nav {
@@ -190,7 +190,7 @@
     
     header nav ul li {
         list-style-type: none;
-        font-size: .8em;
+        font-size: 1em;
         -webkit-animation: descendo2 0.4s linear;
         animation: descendo2 .4s linear;  
     }
@@ -224,10 +224,24 @@
         max-width:60px;
         height: 60px;
     } 
+
+    .fa-chevron-right {
+        font-size: 55px;
+        padding: 0 25px 0 15px;
+    }
         
-    .fa-chevron-right, .fa-chevron-left {
-        font-size: 40px;
-        padding: 0 20px;
+    .fa-chevron-left {
+        font-size: 55px;
+        padding: 0 15px 0 25px;
+    }
+
+    main .menu .menu-container  .menu-default  .menu-card i {
+        bottom:-56px;
+        font-size: 35px;
+    }
+    
+    main .menu .menu-container  .menu-default  .menu-card .btn-details {
+        padding: 1em 1.5em;
     }
 
     main .menu .menu-container .menu-default {
@@ -258,6 +272,11 @@
         "img5 img4 img6";
     }
 
+    .about .about-container .about-text i {
+        font-size: 55px;
+    } 
+    
+
     html, body {
         overflow-x: hidden;
     }
@@ -269,10 +288,6 @@
     .about .about-container .about-text p {
         font-size: 1.2em;
     }
-
-    .about .about-container .about-text i {
-        font-size: 30px;
-    } 
 
     .about .about-container .about-pic img {
         max-width: 300px;

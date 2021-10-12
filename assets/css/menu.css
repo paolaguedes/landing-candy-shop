@@ -145,7 +145,7 @@ main .menu .menu-container  .menu-default  .menu-card img {
 
 main .menu .menu-container  .menu-default  .menu-card .btn-details {
     background-color: var(--btn);
-    max-width: 214.46px;
+    max-width: 160px;
     width: 100%;
     display: inline-block;
     margin: 14px auto;
@@ -155,14 +155,14 @@ main .menu .menu-container  .menu-default  .menu-card .btn-details {
     font-weight: 500;
     font-family: Montserrat;
     border-radius: 4px;
-    padding: .5em 1em;
+    padding: .9em 1.5em;
     position: absolute;
     z-index: 2;
     cursor: pointer;
 }
 
 .btn-details summary {
-    margin-left: 20px;
+    margin-left: 5px;
 }
 
 details[open] summary ~ * {
@@ -195,8 +195,8 @@ main .menu .menu-container  .menu-default  .menu-card a:hover {
 
 main .menu .menu-container  .menu-default  .menu-card i {
     position: absolute;
-    top: -30px;
-    right: 0;
+    bottom:-50px;
+    right: 3px;
     font-size: 26px;
     cursor:grab;
 }
