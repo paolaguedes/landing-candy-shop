@@ -4,21 +4,14 @@ const arrowR = document.getElementsByClassName("fa-chevron-right")[0]
 let card = document.querySelectorAll(".card1")
 let card2 = document.querySelectorAll(".card2")
 
+function arrows () {
+  for(let i=0; i< card.length; i++){
+    card[i].classList.toggle("cardOff")
+    card2[i].classList.toggle("cardOff")
+  }
+}
 
-arrowR.addEventListener('click', () => {
-    for(let i=0; i< card.length; i++)
-      card[i].classList.toggle("cardOff")
-
-    for(let i=0; i< card2.length; i++)
-      card2[i].classList.toggle("cardOff")
-})
-
-arrowL.addEventListener('click', () =>  {
-    for(let i=0; i< card.length; i++)
-      card[i].classList.toggle("cardOff")
-
-    for(let i=0; i< card2.length; i++)
-      card2[i].classList.toggle("cardOff")
-})
+arrowR.addEventListener('click', arrows )
+arrowL.addEventListener('click', arrows )
 
 
