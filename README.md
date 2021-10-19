@@ -3,7 +3,7 @@
 A landing page of a candy shop.
 <br>
 
-Layout created in Figma:
+Layout created in Figma by <a href="https://github.com/SarahOFerreira">Sarah</a>:
 
 <div style="display:flex;">
 <img src="https://user-images.githubusercontent.com/53832972/136988512-d5e58a61-0ffd-48fd-b666-68de61e2cd9e.png" width="200">
