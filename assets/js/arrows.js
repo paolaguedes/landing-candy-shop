@@ -6,8 +6,8 @@ let card2 = document.querySelectorAll(".card2")
 
 function arrows () {
   for(let i=0; i< card.length; i++){
-    card[i].classList.toggle("cardOff")
-    card2[i].classList.toggle("cardOff")
+    card[i].classList.toggle("card-off")
+    card2[i].classList.toggle("card-off")
   }
 }
 
