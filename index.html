@@ -288,12 +288,12 @@
         <h2 class="titles title-yellow ">Galeria</h2>
         <div class="pics-container">
         <article class="pics">
-                <img class="img1" src="./assets/img/gallery/gallery1.png" alt="donuts">
-                <img class="img2" src="./assets/img/gallery/gallery2.png" alt="hamburguers">
-                <img class="img3" src="./assets/img/gallery/gallery3.png" alt="trufas">
-                <img class="img4" src="./assets/img/gallery/gallery4.png" alt="picoles">
-                <img class="img5" src="./assets/img/gallery/gallery6.jpeg" alt="bolo">
-                <img class="img6" src="./assets/img/gallery/gallery5.png" alt="trufas2">
+                <img class="img1 animate" src="./assets/img/gallery/gallery1.png" alt="donuts">
+                <img class="img2 animate" src="./assets/img/gallery/gallery2.png" alt="hamburguers">
+                <img class="img3 animate" src="./assets/img/gallery/gallery3.png" alt="trufas">
+                <img class="img4 animate" src="./assets/img/gallery/gallery4.png" alt="picoles">
+                <img class="img5 animate" src="./assets/img/gallery/gallery6.jpeg" alt="bolo">
+                <img class="img6 animate" src="./assets/img/gallery/gallery5.png" alt="trufas2">
         </article>
         <a class="btns-input submit btn-gallery" href="#">Ver mais</a>
     </div>
@@ -363,5 +363,16 @@
                 <p>(17) 3225-2967</p>
             </div>
     </footer>
+
+    <script type="text/javascript" src="vanilla-tilt.js"></script>
+    <script type="text/javascript">
+      VanillaTilt.init(document.querySelector(".animate"), {
+        max: 25,
+        speed: 400
+      });
+      
+      //It also supports NodeList
+      VanillaTilt.init(document.querySelectorAll(".animate"));
+    </script>
 </body>
 </html>
